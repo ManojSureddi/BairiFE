@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>React App</title>
+  <style>
+    .card {
+      width: 150px;
+      border: 1px solid;
+      height: 200px;
+      display: inline-block;
+      padding: 10px;
+      border-radius: 5px;
+      background: #f1efef;
+      margin: 10px 10px;
+    }
+
+    .card .name-top {
+    font-weight: 300;
+    font-size: 2em;
+    color: #444;  
+        float: left;
+    width: 10px;
+      }
+    .display-none{
+      display: none !important;
+    }
+    .card .name-bottom {
+      position: relative;
+      font-weight: 300;
+      font-size: 2em;
+      color: #444;
+      text-align: right;
+      width:10px;
+      margin-right: 10px;
+      margin-top: -20px;
+    }
+
+    .card .symbol-container {
+      margin: 0 auto;
+      margin-top: -10px;
+      width: 85%;
+      height: 90%;
+    }
+
+    .card .ace {
+      background: url("images/symbols/")
+    }
+    
+    .card .symbol {
+      background: url(images/symbols/icon-small.png) top left;
+width: 23px;
+    height: 23px;
+    }
+    .spade {}
+
+    .diamond {
+      background-position: 23px 0px !important;
+    }
+    .club {
+    background-position: 23px 23px  !important;
+    }
+    .heart{
+      background-position: 47px 23px  !important;
+    }
+    .joker{
+      background: none;
+    }
+    .jocker-symbol{
+        width: 120px!important;
+        float: left;
+        margin-top: 25px!important;
+        margin-left: 2px!important;
+    }
+    .jocker-symbol img{
+      height: auto;
+          margin: 0px;
+    }
+    .jocker-name{
+          width: 5px;
+          word-wrap: break-word;
+          font-size: 1em !important;
+              float: left;
+
+    }
+    .joker-name-bottom{
+      top: 0!important;
+      float: right;
+     margin-right: 0px!important;
+         margin-top: 65%!important;
+    }
+    .central-image{
+    width: 130px;
+    margin-top: 10px;
+    height: 200px;    
+    }
+    .jocker-image{
+        width: 115px;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    .king{
+    }
+    .float-right{
+      float: right;
+    }
+    .upside-down{
+
+    }
+    .symgroup{
+      display: inline-block;
+      width:30px;
+      text-align:center
+    }
+    .symgroup:nth-child(1){
+      margin-top: 10px;
+    }
+    .symgroup:nth-child(2){
+      margin-top: 5px;
+    }
+    .symContain{
+      width:90px;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 80px;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root">
+  </div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>
